@@ -1,0 +1,50 @@
+@media (min-width: 1100px) {
+    .content{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .content {
+        display: flex;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card {
+        max-width: 350px;
+        max-height: 350px;
+        position: absolute;
+    }
+
+    .itens-slide{
+        display: none;
+    }
+  }
+
+  @media (max-width: 590px) {
+    .carousel-item img {
+        height: 400px;
+    }
+    .card {
+        max-width: 350px;
+        max-height: 270px;
+        position: absolute;
+    }
+
+    .card h1 {
+        font-size: 24px;
+    }
+    .card p {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .linha{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+  }

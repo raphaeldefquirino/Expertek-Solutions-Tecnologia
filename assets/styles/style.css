@@ -1,55 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;   
 }
 
 .carousel-item img {
-    max-height: 600px; /* Defina a altura máxima desejada */
+    height: 600px; /* Defina a altura máxima desejada */
     object-fit: cover; /* Faz com que a imagem cubra o contêiner sem distorção */
     width: 100%; /* Faz com que a imagem ocupe toda a largura do contêiner */
 }
 
-.background {
-    background-image: url('../images/consultoria.jpg'); /* Substitua 'image.png' pelo caminho da imagem de fundo */
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .content {
     position: relative;
-    width: 90%;
-    height: 0px;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    top: 50%; /* Ajusta a posição vertical */
+    left: 45%; /* Ajusta a posição horizontal */
+    transform: translate(-45%, -50%); /* Centraliza a div no meio do slideshow */
 }
 
 .card {
     background: white;
     padding: 50px;
     max-width: 400px;
-    position: absolute;
-    right: -50px; /* Posição ajustada para que o card saia da imagem de fundo */
-    top: -40%;
-    transform: translateY(-50%);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.450);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
 
 .card h1 {
-    margin: 0;
     font-size: 30px;
 }
 
-.line{
+.linha{
     background-color: green;
     margin-top: 20px;
     margin-bottom: 20px;
