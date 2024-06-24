@@ -21,7 +21,7 @@ body, html {
     justify-content: flex-end;
     top: 50%; /* Ajusta a posição vertical */
     left: 45%; /* Ajusta a posição horizontal */
-    transform: translate(-50%, -50%); /* Centraliza a div no meio do slideshow */
+    transform: translate(-45%, -50%); /* Centraliza a div no meio do slideshow */
 }
 
 .card {
