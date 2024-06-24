@@ -6,9 +6,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    height: 100%;
-    width: 100%;
+    font-family: Arial, sans-serif;   
 }
 
 .carousel-item img {
@@ -20,10 +18,10 @@ body, html {
 .content {
     position: relative;
     display: flex;
-    width: 100%;
-    max-width: 100%;
-    align-items: center;
     justify-content: flex-end;
+    top: 50%; /* Ajusta a posição vertical */
+    left: 45%; /* Ajusta a posição horizontal */
+    transform: translate(-50%, -50%); /* Centraliza a div no meio do slideshow */
 }
 
 .card {
@@ -31,20 +29,15 @@ body, html {
     padding: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 400px;
-    position: absolute;
-    transform: translateY(-50%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
 
 .card h1 {
-    padding: auto;
     font-size: 30px;
-    border-bottom: 1px solid black;
-    padding-bottom: 20px;
-
 }
 
 .linha{
+    background-color: green;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -57,3 +50,7 @@ body, html {
     font-size: px;
 }
 
+.teste{
+    text-align: center;
+    margin-top: -50px; /* Ajuste o valor negativo para mover a div para cima */
+}
