@@ -1,61 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    height: 100%;
-    width: 100%;
+    font-family: Arial, sans-serif;   
 }
 
 .carousel-item img {
-    max-height: 600px; /* Defina a altura máxima desejada */
+    height: 600px; /* Defina a altura máxima desejada */
     object-fit: cover; /* Faz com que a imagem cubra o contêiner sem distorção */
     width: 100%; /* Faz com que a imagem ocupe toda a largura do contêiner */
 }
 
-.background {
-    background-image: url('../images/consultoria.jpg'); /* Substitua 'image.png' pelo caminho da imagem de fundo */
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .content {
     position: relative;
-    width: 90%;
-    height: 80%;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    top: 50%; /* Ajusta a posição vertical */
+    left: 45%; /* Ajusta a posição horizontal */
+    transform: translate(-45%, -50%); /* Centraliza a div no meio do slideshow */
 }
 
 .card {
     background: white;
     padding: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 400px;
-    position: absolute;
-    right: -50px; /* Posição ajustada para que o card saia da imagem de fundo */
-    top: -40%;
-    transform: translateY(-50%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
 
 .card h1 {
-    margin: 0;
     font-size: 30px;
 }
 
-.line{
+.linha{
     background-color: green;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     width: 70px;
-    height: 5px;
+    height: 10px;
 }
 
 .card p {
@@ -63,182 +49,47 @@ body, html {
     font-size: px;
 }
 
+/* NOSSOS SERVIÇOS */
+.nossos-servicos {
+    margin-top: -100px;
+    background-color: #ffffff;
+    padding: 0px 350px;
+}
 
-  
-  a {
-    font-family: sans-serif;
-    text-decoration: none;
-  }
-  
-  .header {
-    padding-inline: 16px;
-    width: 100%;
-    padding: 50px 4%;
-    position: fixed;
-    top: 0px;
-    left: 0;
-    transition: 0.5s;
-    z-index: 1;
-
-  }
-  
-  header.rolagem {
-    background-color: #dff5d5;
-    padding: 30px 4%;
-  }
-  
-  header.rolagem a {
-    color: #000000;
-  }
-  
-  .nav {
-    max-width: 1280px;
-    height: 70px;
-    margin-inline: auto;
+.nossos-servicos__titulo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.nossos-servicos__card__conteudo__img {
+    height: 45px;
+    color: green;
+}
+
+.nossos-servicos__card__conteudo {
+    width: 300px;
+    height: 115px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-  }
-  
-  .logo img {
-    width: 230px;  /* ajuste a largura conforme necessário */
-    height: 230px;  /* ajuste a altura conforme necessário */
-    
-  }
-  
-  
-  .teste {
-    width: 50px;
-    height: 1500px;
-  }
-  
-  .nav-list {
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 10px;
+    margin: 10px 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.450);
+    overflow: hidden;
+    transition: 0.5s;
+    gap: 10px;
+}
+
+.nossos-servicos__card__conteudo:hover {
+    height: 250px;
+}
+
+.nossos-servicos__card {
     display: flex;
-    gap: 32px;
-    list-style: none;
-  }
-  
-  .nav-list a {
-    font-size: 18px;
-    color: #000000;
-    padding-block: 16px;
-    margin-right: 50px;
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .nav-list a:hover {
-    color: #00ff6a; /* Cor alterada ao passar o mouse */
-    transform: scale(1.1); /* Leve aumento ao passar o mouse */
-  }
-  
-  
-  .hamburger {
-    display: none;
-    border: none;
-    background: none;
-    border-top: 3px solid #000000;
-    cursor: pointer;
-   
-  }
-  
-  .hamburger::after,
-  .hamburger::before {
-    content: " ";
-    display: block;
-    width: 30px;
-    height: 3px;
-    margin-top: 5px;
-    position: relative;
-    transition: 0.3s;
-  }
-  
-  header.rolagem .hamburger::after,
-  header.rolagem .hamburger::before {
-    background: #000000; /* Cor branca quando scroll > 200px */
-  }
-  
-  /* Estilo para quando a tela está em modo mobile */
-  .mobile-hamburger::after,
-  .mobile-hamburger::before {
-    background: #000; /* Cor preta no modo mobile padrão */
-  }
-  
-  
-  
-  @media (max-width: 750px) {
-    .hamburger {
-      display: block;
-      z-index: 1;
-      margin-right: 40px;
-    }
-  
-    header.rolagem {
-      background-color: #dff5d5;
-    }
-  
-    .nav-list {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background: #7ed957;
-      clip-path: circle(100px at 90% -15%);
-      transition: 1s ease-out;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      gap: 0;
-      pointer-events: none;
-      
-    }
-    .nav-list a:hover {
-      color: #ffffff; /* Cor alterada ao passar o mouse */
-      
-    }
-  
-    .nav-list a {
-      font-size: 24px;
-      opacity: 0;
-    }
-  
-    .nav-list li:nth-child(1) a {
-      transition: 0.5s 0.2s;
-    }
-  
-    .nav-list li:nth-child(2) a {
-      transition: 0.5s 0.4s;
-    }
-  
-    .nav-list li:nth-child(3) a {
-      transition: 0.5s 0.6s;
-    }
-  
-    /* Estilos ativos */
-  
-    .nav.active .nav-list {
-      clip-path: circle(1500px at 90% -15%);
-      pointer-events: all;
-    }
-  
-    .nav.active .nav-list a {
-      opacity: 1;
-    }
-  
-    .nav.active .hamburger {
-      position: fixed;
-      right: -18px;
-      border-top-color: transparent;
-    }
-  
-    .nav.active .hamburger::before {
-      transform: rotate(135deg);
-    }
-  
-    .nav.active .hamburger::after {
-      transform: rotate(-135deg);
-      top: -7px;
-    }
-  }
-  
+    background-color: #ffffff;
+}
 
