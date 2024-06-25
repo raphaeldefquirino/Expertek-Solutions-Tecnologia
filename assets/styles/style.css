@@ -93,3 +93,99 @@ body, html {
     background-color: #ffffff;
 }
 
+/*----------------------menu----------------------*/
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    transition: 0.5s;
+    z-index: 1;
+    background-color: #ffffff;
+    height: 100px; /* Define a altura do menu */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.teste {
+    height: 300px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 150px;  /* ajuste a largura conforme necessário */
+    height: 150px;  /* ajuste a altura conforme necessário */
+    max-height: 100%; /* Garante que a imagem não exceda a altura do menu */
+    max-width: 100%; /* Garante que a imagem não exceda a largura disponível */
+    
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between; /* Centraliza os itens do menu */
+    align-items: center; /* Centraliza verticalmente */
+    
+}
+
+.nav-list li {
+    margin: 0 20px; /* Adiciona espaço entre os itens */
+}
+
+.nav-list a {
+    font-size: 18px;
+    color: #000000;
+    margin-right: 50px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    
+}
+
+.nav-list a:last-child {
+    margin-right: 0; /* Remove o margin-right do último item */
+}
+
+.nav-list a:hover {
+    color: #00ff6a; /* Cor alterada ao passar o mouse */
+    transform: scale(1.1); /* Leve aumento ao passar o mouse */
+}
+
+.hamburger {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #000000;
+    cursor: pointer;
+}
+
+.hamburger::after,
+.hamburger::before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+}
+
+header.rolagem .hamburger::after,
+header.rolagem .hamburger::before {
+    background: #000000; /* Cor branca quando scroll > 200px */
+}
+
+/* Estilo para quando a tela está em modo mobile */
+.mobile-hamburger::after,
+.mobile-hamburger::before {
+    background: #000; /* Cor preta no modo mobile padrão */
+}
