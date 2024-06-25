@@ -9,11 +9,16 @@ body, html {
     font-family: Arial, sans-serif;   
 }
 
+.container{
+    max-width: 1200px; /* Define a largura máxima do conteúdo */
+}
+
 .carousel-item img {
     height: 600px; /* Defina a altura máxima desejada */
     object-fit: cover; /* Faz com que a imagem cubra o contêiner sem distorção */
     width: 100%; /* Faz com que a imagem ocupe toda a largura do contêiner */
 }
+
 
 .content {
     position: relative;
