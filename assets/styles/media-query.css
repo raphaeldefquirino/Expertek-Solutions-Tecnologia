@@ -19,20 +19,42 @@
     }
   }
 
+  
+  @media (max-width: 1250px) {
+    .content-2 img {
+      width: 450px;
+      height: 450px;
+  }
+  
+  }
+
+  @media (max-width: 1000px) {
+    .content-2 img {
+      display: none;
+  }
+
+  .card-2{
+    margin-right: 0px;
+  }
+  
+  }
+
+  
+
   @media (max-width: 590px) {
     .carousel-item img {
         height: 400px;
     }
     .card {
+        margin-bottom: 50px;
         max-width: 350px;
-        max-height: 270px;
+        height: 100%;
         position: absolute;
     }
 
     .card h1 {
         font-size: 18px;
         margin: 0;
-        overflow: hidden;
     }
     .card p {
         margin: 0;
@@ -44,7 +66,6 @@
     .linha{
         margin-top: 6px;
         margin-bottom: 4px;
-        width: 100px;
         height: 4px;
         overflow: hidden;
     }
