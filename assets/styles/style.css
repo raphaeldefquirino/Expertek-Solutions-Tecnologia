@@ -138,6 +138,10 @@ body, html {
     
 }
 
+.nossos-servicos__titulo h1 {
+    font-weight: lighter;
+}
+
 .teste {
     height: 300px;
 }
