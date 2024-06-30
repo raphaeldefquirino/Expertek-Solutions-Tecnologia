@@ -119,7 +119,112 @@ body, html {
     height: 600px;
 }
 
+/*-------------------SERVIÇOS-------------------*/
+.services__detail {
+    height: 170px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AADC99;
+    border-radius: 50%;
+    padding: 10%;
+    padding-top: 8%;
+    gap: 7px;
+}
 
+.services__img {
+    height: 35px;
+    width: 35px;
+}
+
+.services__titles {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.services__text {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.services__net {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.services__net__content{
+    display: flex;
+    align-items: center;
+    height: 267px;
+    width: 740px;
+    border-radius: 15px;
+    border: solid 3px #0C3000;
+    gap: 45px;
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+.services__maintenance {
+    display: flex;
+    justify-content: end;
+    margin-right: 7%;
+    margin-bottom: 3%;
+}
+
+.services__maintenance__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    height: 267px;
+    width: 740px;
+    border-radius: 15px;
+    border: solid 3px #0C3000;
+    align-items: center;
+    gap: 45px;
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+.services__security {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.services__security__content {
+    display: flex;
+    align-items: center;
+    height: 267px;
+    width: 740px;
+    border-radius: 15px;
+    border: solid 3px #0C3000;
+    gap: 45px;
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+.services__infra {
+    display: flex;
+    justify-content: end;
+    margin-right: 7%;
+}
+
+.services__infra__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    height: 267px;
+    width: 740px;
+    border-radius: 15px;
+    border: solid 3px #0C3000;
+    align-items: center;
+    gap: 45px;
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
 
 /*----------------------MENU----------------------*/
 .header {
