@@ -146,4 +146,28 @@
       top: -7px;
     }
   }
+
+  @media (max-width: 1058px) {
+
+    .left {
+      display: none;
+    }
+
+    .area {
+      width: 450px;
+      height: 350px;
+    }
+
+    .card-contato{
+
+      width: 420px;
+      height: 350px;
+  }
+  
+
+   .linha-contato{
+      margin-bottom: 95px;
+}  
+
+}
   

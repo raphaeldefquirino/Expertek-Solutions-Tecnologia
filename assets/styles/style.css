@@ -327,6 +327,133 @@ header.rolagem .hamburger::before {
     background: #000; /* Cor preta no modo mobile padrão */
 }
 
+/*----------------------contato-------------------------*/
+.area{
+    width: 900px;
+    height: 600px;
+    align-items: center;
+    margin: auto;
+}
+
+.area h1 {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.linha-contato{
+width: 50px;
+height: 5px;
+background-color: green;
+margin: auto;
+border-radius: 20px;
+margin-bottom: 10px;
+}
+
+.card-contato{
+
+width: 850px;
+height: 550px;
+border-radius: 20px;
+align-items: center;
+margin: auto;
+display: flex;
+padding: 15px;
+}
+
+
+
+.left{
+    width: 425px;
+    height: 450px;
+    
+}
+
+.left img {
+   width: 500px;
+   height: 500px;
+   padding: 20px;
+}
+
+.right{
+    width: 425px;
+    height: 500px;
+    background-color: #aadc992c;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgb(196, 191, 191);
+    
+}
+
+.identificacao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.identificacao > input{
+    width: 375px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px 10px;
+    
+}
+
+.identificacao > label {
+    color: rgb(5, 5, 5);
+    margin-bottom: 5px;
+    margin-left: 15px;
+
+
+}
+
+.identificacao > input::placeholder{
+ 
+    color: rgb(121, 118, 118);
+
+}
+.icones {
+    display: flex;
+    
+
+}
+
+.icones a {
+    padding: 5px;
+    margin: auto;
+}
+
+.icones img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.right .btn-contato{
+    width: 377px;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(14, 13, 13);
+    cursor: pointer;
+    background-color:#7ed957 ;
+    
+}
+
+
 /*footer*/
 footer a {
     text-decoration: none !important;
