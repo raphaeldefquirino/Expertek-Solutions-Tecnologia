@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -8,11 +9,7 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;   
 }
-
-.container{
-    max-width: 1200px; /* Define a largura máxima do conteúdo */
-}
-
+/*----------------------CARROSEL DE IMAGENS E CARD-----------------------*/
 .carousel-item img {
     height: 600px; /* Defina a altura máxima desejada */
     object-fit: cover; /* Faz com que a imagem cubra o contêiner sem distorção */
@@ -21,12 +18,13 @@ body, html {
 
 
 .content {
+    margin-bottom: -100px;
     position: relative;
     display: flex;
     justify-content: flex-end;
     top: 50%; /* Ajusta a posição vertical */
-    left: 45%; /* Ajusta a posição horizontal */
-    transform: translate(-45%, -50%); /* Centraliza a div no meio do slideshow */
+    left: 90%; /* Ajusta a posição horizontal */
+    transform: translate(-90%, -50%); /* Centraliza a div no meio do slideshow */
 }
 
 .card {
@@ -40,24 +38,107 @@ body, html {
     font-size: 30px;
 }
 
+.card p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
 .linha{
-    background-color: green;
+    background-color: #7ED957;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    width: 70px;
-    height: 10px;
+    width: 100px;
+    height: 8px;
 }
 
-.card p {
-    margin-top: 10px;
-    font-size: px;
+.contact{
+    background-image: linear-gradient( to right, #1B6D00, #0C3000);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
 }
 
 /* NOSSOS SERVIÇOS */
 
 
-/*----------------------menu----------------------*/
+.services__net__content{
+    display: flex;
+    align-items: center;
+    height: 267px;
+    width: 740px;
+    border-radius: 15px;
+    border: solid 3px #0C3000;
+    gap: 45px;
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+.services__maintenance {
+    display: flex;
+    justify-content: end;
+    margin-right: 7%;
+    margin-bottom: 3%;
+}
+
+.services__maintenance__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    height: 267px;
+    width: 740px;
+    border-radius: 15px;
+    border: solid 3px #0C3000;
+    align-items: center;
+    gap: 45px;
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+.services__security {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.services__security__content {
+    display: flex;
+    align-items: center;
+    height: 267px;
+    width: 740px;
+    border-radius: 15px;
+    border: solid 3px #0C3000;
+    gap: 45px;
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+.services__infra {
+    display: flex;
+    justify-content: end;
+    margin-right: 7%;
+}
+
+.services__infra__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    height: 267px;
+    width: 740px;
+    border-radius: 15px;
+    border: solid 3px #0C3000;
+    align-items: center;
+    gap: 45px;
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+/*----------------------MENU----------------------*/
 .header {
     width: 100%;
     position: fixed;
@@ -74,6 +155,10 @@ body, html {
     
 }
 
+.nossos-servicos__titulo h1 {
+    font-weight: lighter;
+}
+
 .teste {
     height: 300px;
 }
@@ -87,8 +172,8 @@ body, html {
 }
 
 .logo img {
-    width: 150px;  /* ajuste a largura conforme necessário */
-    height: 150px;  /* ajuste a altura conforme necessário */
+    width: 130px;  /* ajuste a largura conforme necessário */
+    height: 130px;  /* ajuste a altura conforme necessário */
     max-height: 100%; /* Garante que a imagem não exceda a altura do menu */
     max-width: 100%; /* Garante que a imagem não exceda a largura disponível */
     
@@ -120,7 +205,7 @@ body, html {
 }
 
 .nav-list a:hover {
-    color: #00ff6a; /* Cor alterada ao passar o mouse */
+    color: #7ED957; /* Cor alterada ao passar o mouse */
     transform: scale(1.1); /* Leve aumento ao passar o mouse */
 }
 
