@@ -176,4 +176,61 @@ footer{
 }
 
 }
+  /*--------------------------SERVIÇOS-----------------------------*/
+@media (max-width: 991px) {
+.services__net {
+  margin: auto;
+  padding: 3%;
+  }
+  
+.services__net__content {
+  margin-top: 10%;
+  }
+
+.services__maintenance {
+  margin: auto;
+  padding: 3%;
+}
+
+.services__security {
+  margin: auto;
+  padding: 3%;
+}
+
+.services__infra {
+margin: auto;
+padding: 3%;
+}
+}
+
+@media (max-width: 767px) {
+
+  .services__net__content {
+    height: 350px;
+  }
+  .services__maintenance__content {
+    height: 350px;
+  }
+  .services__security__content {
+    height: 350px;
+  }
+  .services__infra__content {
+    height: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .services__net__content {
+    flex-direction: column;
+  }
+  .services__maintenance__content {
+    flex-direction: column;
+  }
+  .services__security__content {
+    flex-direction: column;
+  }
+  .services__infra__content {
+    flex-direction: column;
+  }
+}
   
