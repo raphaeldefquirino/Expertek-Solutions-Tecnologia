@@ -348,7 +348,7 @@ header.rolagem .hamburger::before {
 .linha-contato{
 width: 50px;
 height: 5px;
-background-color: green;
+background-color: #7ED957;
 margin: auto;
 border-radius: 20px;
 margin-bottom: 10px;
@@ -382,7 +382,7 @@ padding: 15px;
 .right{
     width: 425px;
     height: 500px;
-    background-color: #aadc992c;
+    background-color: white;
     border-radius: 15px;
     box-shadow: 1px 1px 20px rgb(196, 191, 191);
     
@@ -402,7 +402,7 @@ padding: 15px;
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background-color: rgb(255, 255, 255);
+    border: solid 2px #AADC99;
     color: black;
     font-size: 12pt;
     outline: none;
@@ -415,6 +415,7 @@ padding: 15px;
     color: rgb(5, 5, 5);
     margin-bottom: 5px;
     margin-left: 15px;
+    font-weight: 600;
 
 
 }
