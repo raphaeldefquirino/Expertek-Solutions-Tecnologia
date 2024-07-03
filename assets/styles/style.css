@@ -158,8 +158,8 @@ body, html {
 .services__net__content{
     display: flex;
     align-items: center;
-    height: 267px;
-    width: 740px;
+    height: 200px;
+    width: 700px;
     border-radius: 15px;
     border: solid 3px #0C3000;
     gap: 45px;
@@ -178,8 +178,8 @@ body, html {
     display: flex;
     flex-direction: row-reverse;
     justify-content: end;
-    height: 267px;
-    width: 740px;
+    height: 200px;
+    width: 700px;
     border-radius: 15px;
     border: solid 3px #0C3000;
     align-items: center;
@@ -197,8 +197,8 @@ body, html {
 .services__security__content {
     display: flex;
     align-items: center;
-    height: 267px;
-    width: 740px;
+    height: 200px;
+    width: 700px;
     border-radius: 15px;
     border: solid 3px #0C3000;
     gap: 45px;
@@ -216,8 +216,8 @@ body, html {
     display: flex;
     flex-direction: row-reverse;
     justify-content: end;
-    height: 267px;
-    width: 740px;
+    height: 200px;
+    width: 700px;
     border-radius: 15px;
     border: solid 3px #0C3000;
     align-items: center;
