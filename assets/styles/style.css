@@ -333,7 +333,7 @@ header.rolagem .hamburger::before {
     height: 600px;
     align-items: center;
     margin: auto;
-    margin-top: 100px;
+  
 }
 
 .area h1 {
@@ -456,6 +456,10 @@ padding: 15px;
 
 
 /*footer*/
+footer{
+
+    margin-top: 300px;
+}
 footer a {
     text-decoration: none !important;
     border: none;
