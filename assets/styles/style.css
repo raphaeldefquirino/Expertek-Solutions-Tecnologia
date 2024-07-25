@@ -235,7 +235,7 @@ body, html {
     transition: 0.5s;
     z-index: 1;
     background-color: #000000;
-    height: 100px; /* Define a altura do menu */
+    height: 130px; /* Define a altura do menu */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -260,8 +260,8 @@ body, html {
 }
 
 .logo img {
-    width: 130px;  /* ajuste a largura conforme necessário */
-    height: 130px;  /* ajuste a altura conforme necessário */
+    width: 180px;  /* ajuste a largura conforme necessário */
+    height: 180px;  /* ajuste a altura conforme necessário */
     max-height: 100%; /* Garante que a imagem não exceda a altura do menu */
     max-width: 100%; /* Garante que a imagem não exceda a largura disponível */
     
@@ -272,6 +272,7 @@ body, html {
     list-style: none;
     justify-content: space-between; /* Centraliza os itens do menu */
     align-items: center; /* Centraliza verticalmente */
+    margin-top: 15px;
     
 }
 
@@ -285,6 +286,7 @@ body, html {
     margin-right: 50px;
     transition: color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
+   
     
 }
 
